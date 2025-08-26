@@ -1,5 +1,5 @@
 const add = (a,b) =>{
-    return a + B;
+    return a + b;
 }
 
 const subtract = (a,b) =>{
@@ -7,11 +7,11 @@ const subtract = (a,b) =>{
 }
 
  const multiply = (a,b) =>{
-    return a + b;
+    return a * b;
  } 
 
  const divide = (a,b) =>{
     return a/b;
  }
 
- modulo.exports ={ add,subtract,multiply,divide } 
+ module.exports ={ add,subtract,multiply,divide } 
